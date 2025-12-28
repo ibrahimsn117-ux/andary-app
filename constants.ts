@@ -1,0 +1,47 @@
+
+import { AppTranslation } from './types';
+
+export const TRANSLATIONS: Record<'ar' | 'en', AppTranslation> = {
+  ar: {
+    welcome: 'أهلاً بك في "انداري"',
+    askAnything: 'اسأل انداري',
+    explainFiles: 'تحليل المستندات',
+    videoLecture: 'إنشاء محاضرة',
+    settings: 'الإعدادات',
+    placeholder: 'اكتب سؤالك هنا...',
+    uploadAssets: 'ارفع الصور أو الملفات (حتى 3)',
+    generateVideo: 'بدء إنتاج المحاضرة',
+    language: 'اللغة المختارة',
+    selectKey: 'إدارة مفتاح API',
+    billingInfo: 'تفاصيل الفوترة والدفع',
+    universityLectureMode: 'محاضر الذكاء الاصطناعي',
+    processing: 'جاري قراءة وتحليل الملفات...',
+    generatingVideo: 'جاري إنشاء فيديو المحاضرة (قد يستغرق دقائق)...',
+    downloadVideo: 'تحميل المحاضرة',
+    teacherName: 'د. انداري',
+    apiKeyStatus: 'حالة المفتاح: تم التفعيل',
+    updateKey: 'تغيير المفتاح',
+    maxFilesHint: 'يمكنك اختيار حتى 3 صور أو ملفات PDF للمحاضرة الواحدة',
+  },
+  en: {
+    welcome: 'Welcome to Andary',
+    askAnything: 'Ask Andary',
+    explainFiles: 'Analyze Documents',
+    videoLecture: 'Create Lecture',
+    settings: 'Settings',
+    placeholder: 'Type your question here...',
+    uploadAssets: 'Upload images or files (up to 3)',
+    generateVideo: 'Generate Video Lecture',
+    language: 'Language Selection',
+    selectKey: 'Manage API Key',
+    billingInfo: 'Billing & Payment Details',
+    universityLectureMode: 'AI Professor Mode',
+    processing: 'Reading and analyzing files...',
+    generatingVideo: 'Generating video lecture (may take a few minutes)...',
+    downloadVideo: 'Download Lecture',
+    teacherName: 'Dr. Andary',
+    apiKeyStatus: 'API Key Status: Active',
+    updateKey: 'Change Key',
+    maxFilesHint: 'You can select up to 3 images or PDF files per lecture',
+  }
+};

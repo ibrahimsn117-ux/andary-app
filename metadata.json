@@ -1,0 +1,8 @@
+{
+  "name": "Andary - AI Teacher",
+  "description": "An advanced AI-powered educational platform that explains documents, solves queries, and transforms whiteboard photos into full video lectures.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
